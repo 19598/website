@@ -7,48 +7,66 @@
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Resume</title>
   </head>
   
-  <body class="bg-light">
+  <body>
 
     <div class="container">
         <div class="row">
-            <h1 class="text-center text-dark bg-dark">Brendan Degryse</h1>
+            <h1 class="text-center txt-dark">Brendan Degryse</h1>
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark background-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">Resume</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="military.html">Why The Military</a>
+              <a class="nav-link active" aria-current="page" href="#military.html">Why The Military</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <div class="container outline txt-dark">
+      <div class="row">
+        <div class="col-md">
+          <h3 class="text-center">Basic Info</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm text-center">
+          GPA: 3.99
+        </div>
+        <div class="col-sm text-center">
+          Class Rank: 5 of 95
+        </div>
+        <div class="col-sm text-center">Year: Junior</div>
+      </div>
+    </div>
     
-    <div class="container">
+    <div class="container outline txt-dark">
       <div class="row">
         <div class="col-md">
           <h3 class="text-center">ACT</h3>
-          <table class="table table-dark text-center">
+          <table class="table background-dark txt-light text-center">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">Date</th>
                 <th scope="col">Composite</th>
                 <th scope="col">English</th>
                 <th scope="col">Math</th>
@@ -58,7 +76,7 @@
             </thead>
             <tbody>
               <tr>
-                <th scope="row">1</th>
+                <th scope="row">02/06/2021</th>
                 <td>33</td>
                 <td>33</td>
                 <td>32</td>
@@ -66,15 +84,63 @@
                 <td>31</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
+                <th scope="row">02/23/2021</th>
                 <td>33</td>
                 <td>34</td>
                 <td>31</td>
                 <td>33</td>
                 <td>34</td>
               </tr>
+              <tr>
+                <th scope="row">Superscore</th>
+                <td>34</td>
+                <td>34</td>
+                <td>32</td>
+                <td>34</td>
+                <td>34</td>
+              </tr>
             </tbody>
           </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="container outline txt-dark">
+      <div class="row">
+        <div class="col-lg">
+          <h3 class="text-center">Extracurriculars & Clubs</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <ul class="list-group text-center">
+            <li class="list-group-item text-light background-dark">National Honor Society, 1 year</li>
+            <li class="list-group-item text-light background-dark">Archery, 7 years, 3 varsity</li>
+            <li class="list-group-item text-light background-dark">Golf, 3 years, 2 varsity</li>
+            <li class="list-group-item text-light background-dark">Quiz Bowl, 3 years, 1 varsity</li>
+            <li class="list-group-item text-light background-dark">Church Youth Group</li>
+            <li class="list-group-item text-light background-dark">4-H, 7 years, served as president and vice-president</li>
+            <li class="list-group-item text-light background-dark">School newspaper, 3 years</li>
+            <li class="list-group-item text-light background-dark">Business Professionals of America (BPA), 1 year, currently serving as vice-president</li>
+            <li class="list-group-item text-light background-dark">Band, 6 years</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container outline txt-dark">
+      <div class="row">
+        <div class="col-lg">
+          <h3 class="text-center">Academic Awards</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <ul class="list-group text-center">
+            <li class="list-group-item text-light background-dark">Freshman: Biology and Health awards</li>
+            <li class="list-group-item text-light background-dark">Sophomore: Chemistry award</li>
+            <li class="list-group-item text-light background-dark">Junior: Four County Student of the Month, BPA SQL Database Fundamentals First Place Regional, BPA Information Technology Concepts Fourth Place Regional, BPA Computer Programming Concepts Fifth Place Regional            </li>
+          </ul>
         </div>
       </div>
     </div>
