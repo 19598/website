@@ -17,3 +17,8 @@
     color: #0F2455;
     border-color: #0F2455;
 }
+
+.text, p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
