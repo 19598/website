@@ -27,3 +27,7 @@
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 17px;
 }
+
+.no-right-padding {
+    padding-right: 0px;
+}
