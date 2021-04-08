@@ -31,3 +31,7 @@
 .no-right-padding {
     padding-right: 0px;
 }
+
+.carousel {
+    padding: 10px;
+}
