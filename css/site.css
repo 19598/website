@@ -1,0 +1,37 @@
+.outline {
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #e1f8ff;
+}
+
+.right-margin {
+    margin-right: 10px;
+}
+
+.list-group {
+    margin-bottom: 10px;
+}
+
+.background-dark {
+    background-color: #0F2455;
+    color: #e1f8ff;
+}
+
+.txt-dark {
+    color: #0F2455;
+    border-color: #0F2455;
+}
+
+.text, p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.no-right-padding {
+    padding-right: 0px;
+}
+
+.carousel {
+    padding: 10px;
+}
