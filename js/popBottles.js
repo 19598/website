@@ -7,10 +7,10 @@ for (i = 99; i > 0; i--) {
 	}
 	if (i - 1 > 0) {
 		output("Take one down, pass it around,");
-		output((i - 1) + " " + word + " of pop.");
+		output((i - 1) + " " + word + " of pop on the wall.");
 	}
 	else {
-		output("Take one down, pass it around</p><p>No more bottles of pop.");
+		output("Take one down, pass it around</p><p>No more bottles of pop on the wall.");
 	}
 }
 
