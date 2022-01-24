@@ -18,7 +18,7 @@ function getInput() {
     var result = prompt("Ready, aim, fire! (enter a number from 0-6):");//gets a number from the player
 
     //if the player enters a number outside of the allowed range, have them pick a different number
-    if (result < 0 || result > 6) {
+    if (!(result >= 0 && result <= 6)) {
         alert("Please enter a number from 0-6.");
         result = getInput();
     }
