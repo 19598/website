@@ -1,3 +1,4 @@
+"use strict";
 //basic car object
 var fiat = {
 	make: "Fiat",
