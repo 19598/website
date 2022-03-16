@@ -4,6 +4,7 @@
 function init() {
 	let planet = document.getElementById("greenplanet");//gets the element with the ID "greenplanet" and assigns it to the planet variable
 	planet.innerHTML = "Red Alert: hit by phaser fire!";//changes that element's text/inner HTML
+	console.log("Red Alert: hit by phaser fire!");
 	planet.setAttribute("class", "redtext");//assigns it to the "redtext" class so that it recieves different styling
 }
 
