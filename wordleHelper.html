@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wordle Helper</title>
+  </head>
+  
+  <body>
+	<p>Correct Letters</p>
+	<div class="correct">
+		<input id="letter1" type="text"></input>
+		<input id="letter2" type="text"></input>
+		<input id="letter3" type="text"></input>
+		<input id="letter4" type="text"></input>
+		<input id="letter5" type="text"></input>
+	</div>
+	<p>Letters Not In Word</p>
+	<div class="notInWord">
+		<input id="notInWord" type="text"></input>
+	</div>
+	<p>Letters Not In Position</p>
+	<div class="notInPosition">
+		<input id="notLetter1" type="text"></input>
+		<input id="notLetter2" type="text"></input>
+		<input id="notLetter3" type="text"></input>
+		<input id="notLetter4" type="text"></input>
+		<input id="notLetter5" type="text"></input>
+	</div>
+	<button onclick="check()">check</button>
+	<button onclick="clear()">clear</button>
+	
+	<p id="results"></p>
+  
+     <script src="js/wordleHelper.js"></script>
+	  
+  </body>
+</html>
