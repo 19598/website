@@ -12,7 +12,7 @@ function showAnswer(eventObj) {
     name = "pics/" + name + ".jpg";
     image.src = name;
 
-    setTimeout(reblur, 5000, image);
+    setTimeout(reblur, 2000, image);
 }
 
 function reblur(image) {
